@@ -1,0 +1,1 @@
+mpcie Library from mithro repo with some outline edit: https://github.com/mithro/kicad-mini-pci-express
