@@ -48,23 +48,23 @@ F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 3650 1450 50  0001 C C
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R1
 U 1 1 5D756FD7
 P 3250 4150
-F 0 "R?" V 3175 4150 50  0000 C CNN
+F 0 "R1" V 3175 4150 50  0000 C CNN
 F 1 "22" V 3250 4150 50  0000 C CNN
-F 2 "" V 3180 4150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3180 4150 50  0001 C CNN
 F 3 "~" H 3250 4150 50  0001 C CNN
 	1    3250 4150
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R2
 U 1 1 5D7581C5
 P 3250 4250
-F 0 "R?" V 3325 4250 50  0000 C CNN
+F 0 "R2" V 3325 4250 50  0000 C CNN
 F 1 "22" V 3250 4250 50  0000 C CNN
-F 2 "" V 3180 4250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3180 4250 50  0001 C CNN
 F 3 "~" H 3250 4250 50  0001 C CNN
 	1    3250 4250
 	0    1    1    0   
@@ -74,34 +74,34 @@ Wire Wire Line
 Wire Wire Line
 	2925 4250 3100 4250
 $Comp
-L Interface_UART:MAX3232 U?
+L Interface_UART:MAX3232 U5
 U 1 1 5D759314
 P 5875 4750
-F 0 "U?" H 5875 6131 50  0000 C CNN
+F 0 "U5" H 5875 6131 50  0000 C CNN
 F 1 "MAX3232" H 5875 6040 50  0000 C CNN
-F 2 "" H 5925 3700 50  0001 L CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5925 3700 50  0001 L CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf" H 5875 4850 50  0001 C CNN
 	1    5875 4750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Interface_UART:MAX485E U?
+L Interface_UART:MAX485E U6
 U 1 1 5D75A1CD
 P 6200 2300
-F 0 "U?" H 6200 2981 50  0000 C CNN
+F 0 "U6" H 6200 2981 50  0000 C CNN
 F 1 "MAX485E" H 6200 2890 50  0000 C CNN
-F 2 "" H 6200 1600 50  0001 C CNN
+F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 6200 1600 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf" H 6200 2350 50  0001 C CNN
 	1    6200 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Interface_UART:MAX485E U?
+L Interface_UART:MAX485E U4
 U 1 1 5D75AD32
 P 5250 2300
-F 0 "U?" H 5250 2981 50  0000 C CNN
+F 0 "U4" H 5250 2981 50  0000 C CNN
 F 1 "MAX485E" H 5250 2890 50  0000 C CNN
-F 2 "" H 5250 1600 50  0001 C CNN
+F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 5250 1600 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf" H 5250 2350 50  0001 C CNN
 	1    5250 2300
 	1    0    0    -1  
